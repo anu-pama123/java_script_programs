@@ -1,11 +1,10 @@
-
 const mincount=100
 let count=0
 let max=0
 let min=0
 console.log("Five random three digit numbers are : ");
 while (count < 5) {
-    randomnumber = Math.floor(Math.random() * 10) * 100;
+    let randomnumber = Math.floor(Math.random() * 10) * 100;
     if ( randomnumber > mincount ) {
         if ( count == 1 ) {
             max=randomnumber

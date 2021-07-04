@@ -1,9 +1,6 @@
-"use strict";
-const ps = require("prompt-sync");
-const prompt = ps();
-let a = prompt("Enter first number, a= ");
-let b = prompt("Enter second number, b= ");
-let c = prompt("Enter third number, c= ");
+let a = 1;
+let b =2;
+let c =3;
 let expression1 = (a + b * c);
 console.log("a+b*c = " + expression1);
 let expression2 = (a % b + c);
